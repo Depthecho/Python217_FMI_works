@@ -1,77 +1,166 @@
-# Дан текстовый файл. Необходимо создать новый файл, убрав из него все неприемлемые слова. Список неприемлемых
-# слов находится в другом текстовом файле
+# 1.
+
+# import re
 #
-# with open('text.txt', 'r', encoding='utf-8') as my_text, open('words.txt', 'r', encoding='utf-8') as bad_words:
-#     text = my_text.read()
-#     bad_word = bad_words.read().split()
+# string = 'And'
+# result = re.fullmatch('[euioa].*[qwrtypsdfghjklzxcvbnm]', string, re.IGNORECASE)
+# print(result)
+
+
+# 2.
+# string = 'https://www.google.com/search?q=gmail&oq=+&aqs=chrome..69i57j69i60j69i61l3.918j0j7&sourceid=chrome&ie=UTF-8'
+# result = re.fullmatch('https?://\S+\.[a-zA-Z0-9]{2,6}\S+', string)
+# print(result)
+
+
+# 3.
+
+# strings = ['and His book',
+#            'And his book',
+#            'and his book',
+#            'and hIS book',
+#            'and his Book']
+# for string in strings:
+#     result = re.fullmatch(r'.*\b[A-Z].*', string)
+#     print(result)
+
+
+# 4.
+
+# strings = ['book',
+#            'letter',
+#            'hello',
+#            'man',
+#            'weather']
+# for string in strings:
+#     result = re.search(r'[a-zA-Z]*(\w)\1[a-zA-Z]*', string)
+#     print(result)
+
+
+# -----------------------------------------------------------
+
+# with open(file='text.txt', mode='r', encoding='utf-8') as file:
+#     file.read()
+#     file.readline()
+#     file.readlines()
+#     if file.writable():
+#         file.write('5')
+
+
+# 1.
+
+# import re
 #
-#     for i in bad_word:
-#         text = text.replace(i, "")
+# text_file = 'text.txt'
+# banned_words_file = 'words.txt'
+# cleared_text_file = 'out.txt'
+# with open(text_file, 'r') as text, open(banned_words_file, 'r') as words:
+#     text = text.read()
+#     words = re.split('[,.!?\s]+', words.read())
+#     for word in words:
+#         text = text.replace(word, '')
+# with open(cleared_text_file, 'w') as out:
+#     out.write(text)
+
+
+# 2.
+
+# translit_dict = {'ы': 'y', 'ь': "'", 'ъ': "''",
+#                  'А': 'A', 'а': 'a',
+#                  'Б': 'B', 'б': 'b',
+#                  'В': 'V', 'в': 'v',
+#                  'Г': 'G', 'г': 'g',
+#                  'Д': 'D', 'д': 'd',
+#                  'Е': 'Ye', 'е': 'ye',
+#                  'Ж': 'Zh', 'ж': 'zh',
+#                  'З': 'Z', 'з': 'z',
+#                  'И': 'I', 'и': 'i',
+#                  'Й': 'Y', 'й': 'y',
+#                  'К': 'K', 'к': 'k',
+#                  'Л': 'L', 'л': 'l',
+#                  'М': 'M', 'м': 'm',
+#                  'Н': 'N', 'н': 'n',
+#                  'О': 'O', 'о': 'o',
+#                  'П': 'P', 'п': 'p',
+#                  'Р': 'R', 'р': 'r',
+#                  'С': 'S', 'с': 's',
+#                  'Т': 'T', 'т': 't',
+#                  'У': 'U', 'у': 'u',
+#                  'Ф': 'F', 'ф': 'f',
+#                  'Х': 'Kh', 'х': 'kh',
+#                  'Ц': 'Ts', 'ц': 'ts',
+#                  'Ч': 'Ch', 'ч': 'ch',
+#                  'Ш': 'Sh', 'ш': 'sh',
+#                  'Щ': 'Shch', 'щ': 'shch',
+#                  'Э': 'E', 'э': 'e',
+#                  'Ю': 'Yu', 'ю': 'yu',
+#                  'Я': 'Ya', 'я': 'ya',
+#                  }
 #
-# with open('text2.txt', 'w', encoding='utf-8') as my_clear_text:
-#     my_clear_text.write(text)
 #
-#
-# Написать программу транслитерации с русского на английский и ноборот. Данные для транслитерации берутся в виде
-# словарей из файла и записываются в другой файл. Направление перевода определяется через меню пользователя.
-# ru_to_eng = {
-#     'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e',
-#     'ё': 'yo', 'ж': 'zh', 'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k',
-#     'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o', 'п': 'p', 'р': 'r',
-#     'с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'kh', 'ц': 'ts',
-#     'ч': 'ch', 'ш': 'sh', 'щ': 'shch', 'ъ': '', 'ы': 'y', 'ь': '',
-#     'э': 'e', 'ю': 'yu', 'я': 'ya',
-# }
-#
-# eng_to_ru = {
-#     'a': 'а', 'b': 'б', 'v': 'в', 'g': 'г', 'd': 'д', 'e': 'е',
-#     'yo': 'ё', 'zh': 'ж', 'z': 'з', 'i': 'и', 'y': 'й', 'k': 'к',
-#     'l': 'л', 'm': 'м', 'n': 'н', 'o': 'о', 'p': 'п', 'r': 'р',
-#     's': 'с', 't': 'т', 'u': 'у', 'f': 'ф', 'kh': 'х', 'ts': 'ц',
-#     'ch': 'ч', 'sh': 'ш', 'shch': 'щ', 'y': 'ы', 'e': 'э', 'yu': 'ю',
-#     'ya': 'я',
-# }
-#
-#
-# def trans_text(text, direction):
-#     if direction == "ru_to_eng":
-#         translat = ru_to_eng
-#     elif direction == "eng_to_ru":
-#         translat = eng_to_ru
+# def translit(langs, input_file, output_file):
+#     in_text = open(input_file, 'r', encoding='utf-8').read()
+#     if langs == ['ru', 'en']:
+#         for key, value in translit_dict.items():
+#             in_text = in_text.replace(key, value)
+#     elif langs == ['en', 'ru']:
+#         for key, value in translit_dict.items():
+#             in_text = in_text.replace(value, key)
 #     else:
-#         print("Неверный ввод!")
-#         return ""
-#
-#     result = ""
-#     for char in text:
-#         if char in translat:
-#             result += translat[char]
-#         else:
-#             result += char
-#     return result
+#         print('Такие языки не поддерживаются данной программой!')
+#     out_file = open(output_file, 'w', encoding='utf-8')
+#     out_file.write(in_text)
+#     out_file.close()
 #
 #
+# input_file = input('Введите имя исходного файла: ')
+# translit_langs = input('Введите, из какого в какой язык транслитерировать:\n'
+#                        'Пример: en -> ru\n')
+# output_file = input('Введите имя файла, в который сохранить перевод: ')
+# translit(translit_langs.split(' -> '), input_file, output_file)
+
+
+# 3.
+
+# def merge_files(input_filenames, output_filename):
+#     with open(output_filename, 'w', encoding='utf-8') as output_file:
+#         for input_filename in input_filenames:
+#             with open(input_filename, 'r', encoding='utf-8') as input_file:
+#                 output_file.write(input_file.read())
+#
+#
+# input_filenames = []
 # while True:
-#     print('Меню:')
-#     print("1. Перевод с русского на английский.")
-#     print("2. Перевод с английского на русский.")
-#     print('3. Выход.')
-#     choice = int(input("Ваш выбор: "))
-#     if choice == 1:
-#         text = input("Введите текст на русском: ")
-#         result = trans_text(text, "ru_to_eng")
-#         with open(file='ru_to_eng_text.txt', mode='w', encoding='utf-8') as eng_text:
-#             finally_text = eng_text.write(result)
-#     elif choice == 2:
-#         text = input("Введите ваш текст еа английском: ")
-#         result = trans_text(text, "eng_to_ru")
-#         with open(file='eng_to_ru_text.txt', mode='w', encoding='utf-8') as ru_text:
-#             finally_text =ru_text.write(result)
-#     elif choice == 3:
-#         print('Выход из программы...')
+#     filename = input('Enter a filename (or "quit" to finish): ')
+#     if filename == 'quit':
 #         break
-#     else:
-#         print("Неверный номер команды")
+#     input_filenames.append(filename)
+#
+# output_filename = input('Enter the output filename: ')
+# merge_files(input_filenames, output_filename)
 
 
+# 4.
 
+# def merge_files(input_filenames, output_filename):
+#     with open(output_filename, 'w', encoding='utf-8') as output_file:
+#         first = True
+#         for input_filename in input_filenames:
+#             with open(input_filename, 'r', encoding='utf-8') as input_file:
+#                 if first:
+#                     symbols = set(input_file.read().lower())
+#                     first = False
+#                 else:
+#                     symbols = symbols.intersection(input_file.read().lower())
+#         output_file.write(' '.join(symbols))
+#
+#
+# input_filenames = []
+# while True:
+#     filename = input('Enter a filename (or "quit" to finish): ')
+#     if filename == 'quit':
+#         break
+#     input_filenames.append(filename)
+#
+# output_filename = input('Enter the output filename: ')
+# merge_files(input_filenames, output_filename)
