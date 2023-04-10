@@ -1,0 +1,7 @@
+number1=input('Enter 3 numbers: ')
+number2=input()
+number3=input()
+summ=int(number1)+int(number2)+int(number3)
+multi=int(number1)*int(number2)*int(number3)
+print(f'Ur summ is: {summ}')
+print(f'Ur multiplication is: {multi}')
