@@ -1,4 +1,4 @@
-# Напишите информационную систему «Сотрудники». Программа должна обеспечивать ввод данных, редакти-рование данных
+# Напишите информационную систему «Сотрудники». Программа должна обеспечивать ввод данных, редактирование данных
 # сотрудника, удаление сотрудника, поиск сотрудника по фамилии, вывод информации обо всех сотрудниках, указанного
 # возраста, или фамилия которых начинается на указанную букву. Организуйте возможность сохранения найденной информации
 # в файл. Также весь список сотрудников сохраняется в файл (при выходе из программы — автоматически, в процессе
@@ -8,15 +8,17 @@
 workers = []
 
 
+# Добавление работника
 def add_worker():
-    name = input("Введите имя работника: ")
-    surname = input("Введите фамилию раюотника: ")
+    first_name = input("Введите имя работника: ")
+    last_name = input("Введите фамилию работника: ")
     age = input("Введите возраст работника: ")
     salary = input("Введите зарплату работника: ")
-    workers.append({'first_name': name, 'last_name': surname, 'age': age, 'salary': salary})
+    workers.append({'first_name': first_name, 'last_name': last_name, 'age': age, 'salary': salary})
     print("Данные работника успешно добавлены.")
 
 
+# Удаление работника
 def remove_worker():
     last_name = input("Введите фамилию работника: ")
     for worker in workers:
@@ -26,6 +28,7 @@ def remove_worker():
             return
 
 
+# Редактирование работника
 def edit_worker():
     surname = input("Введите фамилию работника для редактирования его данных: ")
     for worker in workers:
@@ -37,6 +40,7 @@ def edit_worker():
             return
 
 
+# Поиск работника по фамилии
 def find_worker_by_lastname():
     last_name = input("Введите фамилию работника для поиска: ")
     for worker in workers:
@@ -45,6 +49,7 @@ def find_worker_by_lastname():
             return
 
 
+# Поиск работника по возрасту
 def find_worker_by_age():
     age = input("Введите возраст работника: ")
     for worker in workers:
@@ -52,31 +57,37 @@ def find_worker_by_age():
             print(f"Имя: {worker['first_name']}\nФамилия: {worker['last_name']}\nЗарплата: {worker['salary']}")
 
 
+# Поиск работника п инициалам
 def find_worker_by_initial():
     initial = input("Введите первую букву фамилии работника: ")
     for worker in workers:
         if worker['last_name'].startswith(initial):
             print(
-                f"Имя: {worker['first_name']}\nФамилия: {worker['last_name']}\nВозраст: {worker['age']}\nЗарплата: {worker['salary']}")
+                f"Имя: {worker['first_name']}\nФамилия: {worker['last_name']}\nВозраст: {worker['age']}\nЗарплата:"
+                f" {worker['salary']}")
 
 
+# Показ всех работников
 def show_all_workers():
     for worker in workers:
         print(
-            f"Имя: {worker['first_name']}\nФамилия: {worker['last_name']}\nВозраст: {worker['age']}\nЗарплата: {worker['salary']}\n ================================================================")
+            f"Имя: {worker['first_name']}\nФамилия: {worker['last_name']}\nВозраст: {worker['age']}\nЗарплата:"
+            f" {worker['salary']}\n ================================================================")
 
 
+# Сохранение всех работников в файле
 def save_workers_to_file():
-    with open(file="workers.txt", mode="a", encoding="utf-8") as workers_file:
+    with open(file="workers.txt", mode="w", encoding="utf-8") as workers_file:
         for worker in workers:
-            workers_file.write(f"{worker['first_name']}, {worker['last_name']}, {worker['age']}, {worker['salary']}\n")
+            workers_file.write(f"{worker['first_name']},{worker['last_name']},{worker['age']},{worker['salary']}\n")
 
 
+# Загрузка всех работников из файла
 def load_workers_from_file():
     with open(file="workers.txt", mode="r", encoding="utf-8") as workers_file:
         for line in workers_file:
-            first_name, last_name, age, salary = line.strip().split(",")
-            workers.append({'first_name': first_name, 'last_name': last_name, 'age': age, 'salary': salary})
+            first_name, last_name, age, salary = line.strip().split(", ")
+            workers.append({'first_name': first_name,'last_name': last_name,'age': age,'salary': salary})
 
 
 def workers_prog():
@@ -122,5 +133,3 @@ def workers_prog():
 
 
 workers_prog()
-# Только единственный минус, я не могу понять, почему 4,5 и 6 команды не работают с уже имеющимися в файле работниками,
-# Вроде всё правильно написал
