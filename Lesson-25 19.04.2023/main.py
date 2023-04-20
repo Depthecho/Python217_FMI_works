@@ -1,73 +1,3 @@
-# class Person():
-#     def __init__(self):
-#         self.person = dict()
-#
-#     def add_person(self):
-#         self.person['first_name'] = input('Введите ваше имя: ')
-#         self.person['second_name'] = input('Введите вашу фамилию: ')
-#         self.person['third_name'] = input('Введите ваше отчество: ')
-#         self.person['bday'] = input('Введите вашу дату рождения: ')
-#         self.person['number_phone'] = input('Введите ваш номер телефона: ')
-#         self.person['city'] = input('Введите ваш город: ')
-#         self.person['country'] = input('Введите вашу страну: ')
-#         self.person['adress'] = input('Введите ваш адрес: ')
-#         print(self.person)
-#
-#     def show_person(self):
-#         second_name = input('Введиет фмилию для поиска: ')
-#         if second_name == self.person['second_name']:
-#             self.person.pop('second_name')
-#             for i in self.person.values():
-#                 print(f"{i}", end=' ')
-#
-#
-# my_person = Person()
-# my_person.add_person()
-# my_person.show_person()
-#
-#
-# class Fraction():
-#     def __init__(self, numerator, denominator):
-#         self.numerator = numerator
-#         self.denominator = denominator
-#
-#     def input_fraction(self):
-#         self.numerator = int(input("Введите числитель: "))
-#         self.denominator = int(input("Введите знаменатель: "))
-#
-#     def summ_fraction(self, other):
-#         summ_num = self.numerator * other.denominator + other.numerator * self.denominator
-#         summ_den = self.denominator * other.denominator
-#         print(f'{summ_num}/{summ_den}')
-#         return Fraction(summ_num, summ_den)
-#
-#     def sub_fraction(self, other):
-#         sub_num = self.numerator * other.denominator - other.numerator * self.denominator
-#         sub_den = self.denominator * other.denominator
-#         print(f'{sub_num}/{sub_den}')
-#         return Fraction(sub_num, sub_den)
-#
-#     def multi_fraction(self, other):
-#         multi_num = self.numerator * other.numerator
-#         multi_den = self.denominator * other.denominator
-#         print(f'{multi_num}/{multi_den}')
-#         return Fraction(multi_num, multi_den)
-#
-#     def div_fraction(self, other):
-#         div_num = self.numerator * other.denominator
-#         div_den = self.denominator * other.numerator
-#         print(f'{div_num}/{div_den}')
-#         return Fraction(div_num, div_den)
-#
-#
-# my_first_fraction = Fraction(4, 5)
-# my_second_fraction = Fraction(6, 9)
-# my_summ =my_first_fraction.summ_fraction(my_second_fraction)
-# my_sub = my_first_fraction.sub_fraction(my_second_fraction)
-# my_multi = my_first_fraction.multi_fraction(my_second_fraction)
-# my_div = my_first_fraction.div_fraction(my_second_fraction)
-
-# 25 cw
 # class Fraction:
 #     def __init__(self, numerator, denominator):
 #         self.numerator = numerator
@@ -91,7 +21,7 @@
 #         new_denominator = self.denominator * other.denominator
 #         return Fraction(new_numerator, new_denominator)
 #
-#         def __truediv__(self, other):
+#     def __truediv__(self, other):
 #         if other.self.numerator == 0:
 #             return "0"
 #         else:
@@ -114,6 +44,8 @@
 # print(a - b)
 # print(a * b)
 # print(a / b)
+from xmlrpc.client import DateTime
+
 
 # class Library:
 #     def __init__(self, name, address, num_books, capacity):
@@ -178,3 +110,97 @@
 # print(lib1 <= lib2)
 # print(lib1 == lib2)
 # print(lib1 != lib2)
+class Date:
+    def __init__(self, day, month, year):
+        self.day = day
+        self.month = month
+        self.year = year
+
+    def is_leap_year(self):
+        return True if self.year % 400 == 0 or self.year % 100 == 0 or self.year % 4 == 0 else False
+
+    def get_month_name(self):
+        months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+                  "November", "December"]
+        return months[self.month]
+
+    def get_days_in_month(self):
+        if self.month in [1, 3, 5, 7, 8, 10, 12]:
+            return 31
+        elif self.month == 2:
+            if self.is_leap_year():
+                return 29
+            else:
+                return 28
+        else:
+            return 30
+
+    def __sub__(self, other):
+        days = 0
+        if self > other:
+            start_date = other
+            end_date = self
+        else:
+            start_date = self
+            end_date = other
+        while start_date != end_date:
+            days += 1
+            start_date += 1
+        return days
+
+    def __add__(self, days):
+        while days > 0:
+            days_in_month = self.get_days_in_month()
+            if self.day + days > days_in_month:
+                days -= days_in_month - self.day + 1
+                self.day = 1
+                if self.month == 12:
+                    self.month = 1
+                    self.year += 1
+                else:
+                    self.month += 1
+            else:
+                self.day += days
+                days = 0
+        return self
+
+    def __gt__(self, other):
+        if self.year > other.year:
+            return True
+        elif self.year < other.year:
+            return False
+        else:
+            if self.month > other.month:
+                return True
+            elif self.month < other.month:
+                return False
+            else:
+                if self.day > other.day:
+                    return True
+                else:
+                    return False
+
+    def __lt__(self, other):
+        return not self > other and self != other
+
+    def __ge__(self, other):
+        return self > other or self == other
+
+    def __le__(self, other):
+        return not self > other
+
+    def __eq__(self, other):
+        return self.day == other.day and self.month == other.month and self.year == other.year
+
+    def __ne__(self, other):
+        return not self == other
+
+    def __str__(self):
+        return f"{self.day}:{self.month}:{self.year}"
+
+first_date = Date(28, 8, 2002)
+second_date = Date(28, 8, 2003)
+print(first_date - second_date)
+print(first_date)
+first_date + 400
+print(first_date)

@@ -1,74 +1,223 @@
-from abc import ABC, abstractmethod
+# class Number:
+#     def __init__(self, num):
+#         self.num = num
+#
+#     def add(self, other):
+#         return Number(self.num + other.num)
+#
+#     @staticmethod
+#     def get():
+#         return 0
+#
+#     @classmethod
+#     def print_info(cls):
+#         print(cls.__name__)
+#
+#
+# class Float(Number):
+#     pass
+#
+#
+# a = Number(2)
+# print(a.get())
+# Number.print_info()
+# b = Float(3.4)
+# b.print_info()
 
 
-class Human(ABC):
-    def __init__(self, first_name, second_name, age, gender):
-        self.first_name = first_name
-        self.second_name = second_name
-        self.age = age
-        self.gender = gender
-
-    @abstractmethod
-    def work(self):
-        pass
-
-
-class Builder(Human):
-    def __init__(self, first_name, second_name, age, gender, classification):
-        Human.__init__(self, first_name, second_name, age, gender)
-        self.classification = classification
-
-    def work(self):
-        print("Lets build it !")
-
-    @property
-    def classification(self):
-        return self._classification
-
-    @classification.setter
-    def classification(self, string):
-        self._classification = string
-
-
-class Sailor(Human):
-    def __init__(self, first_name, second_name, age, gender, sea_rank):
-        Human.__init__(self, first_name, second_name, age, gender)
-        self.rank = sea_rank
-
-    def work(self):
-        print("Lets swim !")
-
-    @property
-    def sea_rank(self):
-        return self._sea_rank
-
-    @sea_rank.setter
-    def rank(self, string):
-        self._sea_rank = string
+# class Human:
+#     count = 0
+#
+#     def __init__(self, fio, dob, phone_number,
+#                  city, country, adress):
+#         self.fio = fio
+#         self.dob = dob
+#         self.phone_number = phone_number
+#         self.city = city
+#         self.country = country
+#         self.adress = adress
+#         self.__class__.count += 1
+#
+#     def reset(self):
+#         self.fio = input('Введите новое ФИО: ')
+#         self.dob = input('Введите новую дату рождения: ')
+#         self.phone_number = input('Введите новый телефонный номер: ')
+#         self.city = input('Введите новый город: ')
+#         self.country = input('Введите новую страну: ')
+#         self.adress = input('Введите новый адрес: ')
+#
+#     def print_info(self):
+#         print(f'Фио: {self.fio}')
+#         print(f'Дата рождения: {self.dob}')
+#         print(f'Телефонный номер: {self.phone_number}')
+#         print(f'Город: {self.city}')
+#         print(f'Страна: {self.country}')
+#         print(f'Адрес: {self.adress}')
+#
+#     @staticmethod
+#     def get_count():
+#         return Human.count
+#
+#
+# print(Human.get_count())
+# a = Human(5, 2, 3, 4, 4, 4)
+# print(a.get_count())
+# b = Human(5, 2, 3, 4, 4, 4)
+# print(Human.get_count())
 
 
-class Pilot(Human):
-    def __init__(self, first_name, second_name, age, gender, rank):
-        Human.__init__(self, first_name, second_name, age, gender)
-        self.rank = rank
+# class GeometrySquares:
+#     count = 0
+#
+#     @staticmethod
+#     def get_count():
+#         return GeometrySquares.count
+#
+#     @staticmethod
+#     def triangle_area_height(a, h):
+#         GeometrySquares.count += 1
+#         return a * h / 2
+#
+#     @staticmethod
+#     def triangle_area_p(a, b, c):
+#         GeometrySquares.count += 1
+#         p = (a + b + c) / 2
+#         return (p*(p - a)*(p - b)*(p - c))**0.5
+#
+#     @staticmethod
+#     def rectangle_area(a, b):
+#         GeometrySquares.count += 1
+#         return a * b
+#
+#     @staticmethod
+#     def square_area(a):
+#         GeometrySquares.count += 1
+#         return a ** 2
+#
+#     @staticmethod
+#     def rhombus_area(a, h):
+#         GeometrySquares.count += 1
+#         return a * h
+#
+#
+# a = GeometrySquares.triangle_area_height(2, 6)
+# print(a)
+# a = GeometrySquares.triangle_area_p(2, 5, 4)
+# print(a)
+# print(GeometrySquares.get_count())
 
-    def work(self):
-        print("Lets fly !")
 
-    @property
-    def rank(self):
-        return self._rank
+# class Circle:
+#     def __init__(self, rad):
+#         self.r = rad
+#         self.__area = rad ** 2 * 3.14
+#
+#     @property
+#     def area(self):
+#         return self.__area
+#
+#     @area.setter
+#     def area(self, value):
+#         self.r = (value / 3.14) ** 0.5
+#         self.__area = self.r ** 2 * 3.14
+#
+#     @area.deleter
+#     def area(self):
+#         raise Exception('НЕ ПЫТАЙТЕСЬ УДАЛИТЬ ЭТО СВОЙСТВО. ОНО СВЯЩЕННО')
+#
+#
+# c = Circle(5)
+# print(c.r, c.area)
+# c.area = 5
+# print(c.r, c.area)
+# del c.area
+# print(c.area)
 
-    @rank.setter
-    def rank(self, string):
-        self._rank = string
+
+# from abc import ABC, abstractmethod
+#
+#
+# class Animal(ABC):
+#     def __init__(self, name, age, sound):
+#         self.name = name
+#         self.age = age
+#         self.sound = sound
+#
+#     @abstractmethod
+#     def make_sound(self):
+#         pass
+#
+#
+# class Cat(Animal):
+#     def make_sound(self):
+#         print(self.sound)
+#
+#
+# cat = Cat('Мурзик', 2, 'Meow')
+# cat.make_sound()
 
 
-builder = Builder("Ivan", "ivanov", 44, "Male", "joiner")
-builder.work()
-builder.classification = "carpenter"
-print(builder.classification)
-sailor = Sailor("Nikita", "Belov", 39, "Male", "captain of the second rank")
-sailor.work()
-pilot = Pilot("Mikhail", "Romashkin", 31, "Male", "admiral")
-pilot.work()
+# from abc import ABC, abstractmethod
+#
+#
+# class Human(ABC):
+#
+#     def __init__(self, name, age, sex):
+#         self.name = name
+#         self.age = age
+#         self.sex = sex
+#
+#     def get_info(self):
+#         pronoun = 'he' if self.sex == 'm' else 'she'
+#         return f'This is {self.name}. {pronoun.capitalize()} is {self.age}. ' \
+#                f'And {pronoun} is {self.occupation}'
+#
+#     @abstractmethod
+#     def occupation(self):
+#         pass
+#
+#     @abstractmethod
+#     def say_something(self):
+#         pass
+#
+#
+# class Builder(Human):
+#     @property
+#     def occupation(self):
+#         return 'Builder'
+#
+#     def say_something(self):
+#         print('What do you want me to say?')
+#
+#
+# class Sailor(Human):
+#     @property
+#     def occupation(self):
+#         return 'Sailor'
+#
+#     def say_something(self):
+#         print('Weather is kinda stormy today. Not good.')
+#
+#
+# class Pilot(Human):
+#     @property
+#     def occupation(self):
+#         return 'Pilot'
+#
+#     def say_something(self):
+#         print('Get back in place and fasten your seatbelt!')
+#
+#
+# c = Builder('Emma', 29, 'w')
+# print(c.get_info())
+# c.say_something()
+# print('--------------')
+#
+# a = Sailor('John', 23, 'm')
+# print(a.get_info())
+# a.say_something()
+# print('--------------')
+#
+# b = Pilot('Jeremy', 37, 'm')
+# print(b.get_info())
+# b.say_something()
