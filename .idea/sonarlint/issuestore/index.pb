@@ -31,7 +31,3 @@ C
 My_dcit2/my_dict.py,7\a\7a04c72d22bd275c83c1b6554ac3a69d2695ccd6
 C
 My_dcit2/index.html,3\6\361360413acb372955d3840c4db63e3a210bf07a
-F
-My_dict/dictionary.txt,6\6\66d36f6e3d3367e3e9462f4088ccc3271253d4ef
-I
-My_dict/Eng_to_Ru_Dict.py,4\7\47cb46b900109cab569f94583dd9016e2bf64c21
