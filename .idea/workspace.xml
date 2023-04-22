@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27917aec-d6a1-4a9c-bccf-8c900417681f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-25 hw/hw1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-25 hw/hw2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-25 hw/hw3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-25 hw/hw4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aaffb922379a8139ffe22e8a03ac68f8f21a2da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c13c96ecd0355788e19fc408b81e85613d540cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47cb46b900109cab569f94583dd9016e2bf64c21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66d36f6e3d3367e3e9462f4088ccc3271253d4ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c00ac1cdaea44efcbd36796e76e56d24536360a0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2aaffb922379a8139ffe22e8a03ac68f8f21a2da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2c13c96ecd0355788e19fc408b81e85613d540cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/47cb46b900109cab569f94583dd9016e2bf64c21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/66d36f6e3d3367e3e9462f4088ccc3271253d4ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c00ac1cdaea44efcbd36796e76e56d24536360a0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_dict/Eng_to_Ru_Dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_dict/Eng_to_Ru_Dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_dict/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/My_dict/dictionary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.hw4">
+  <component name="RunManager" selected="Python.Eng_to_Ru_Dict">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Eng_to_Ru_Dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-25 hw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/My_dict" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-25 hw/hw1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_dict/Eng_to_Ru_Dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Eng_to_Ru_Dict" />
         <item itemvalue="Python.hw4" />
         <item itemvalue="Python.123" />
         <item itemvalue="Python.hw3" />
         <item itemvalue="Python.hw2" />
-        <item itemvalue="Python.hw1" />
       </list>
     </recent_temporary>
   </component>

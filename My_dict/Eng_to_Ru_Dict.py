@@ -1,3 +1,4 @@
+import random
 DICTIONARY_FILE = 'dictionary.txt'
 
 
@@ -27,7 +28,7 @@ def save_dictionary(dictionary):
             for english_word, translation in words.items():
                 russian_word = translation['russian']
                 transcription = translation['transcription']
-                f.write(f"{english_word} : {russian_word} : {transcription}\n")
+                f.write(f"{english_word}:{russian_word}:{transcription}\n")
 
 
 def add_word(dictionary):
@@ -37,7 +38,7 @@ def add_word(dictionary):
     transcription = input('Введите транскрипцию: ')
     if category not in dictionary:
         dictionary[category] = {}
-    dictionary[category][english_word] = {'russian': russian_word, 'transcription': transcription}
+    dictionary[category][english_word] = {'russian':russian_word,'transcription':transcription}
     save_dictionary(dictionary)
     print('Слово добавлено в категорию и сохранено в файл')
 
@@ -94,6 +95,45 @@ def delete_word_from_category(dictionary):
         print(f'Категория "{category_name}" не найдена')
 
 
+def english_to_russian_quiz(dictionary):
+    category = input('Введите название категории: ')
+    words = dictionary.get(category)
+    if not words:
+        print(f"Категория '{category}' не найдена в словаре")
+        return
+    english_words = list(words.keys())
+    random.shuffle(english_words)
+    for english_word in english_words:
+        russian_word = words[english_word]['russian']
+        print(f'Переведите слово "{english_word}" на русский язык: ')
+        answer = input().strip().lower()
+        if answer == russian_word.lower():
+            print('Вы угадали!')
+        else:
+            print(f'Неверно. Правильный ответ: "{russian_word}"')
+
+
+def russian_to_english_quiz(dictionary):
+    category = input('Введите название категории: ')
+    words = dictionary.get(category)
+    if not words:
+        print(f"Категория '{category}' не найдена в словаре")
+        return
+    english_words = list(words.keys())
+    russian_word = random.choice(list(words.values()))['russian']
+    print(f'Переведите слово "{russian_word}" на английский язык: ')
+    answer = input().strip().lower()
+    if answer in english_words:
+        print('Вы угадали!')
+    else:
+        correct_answer = next((english_word for english_word in english_words if english_word.lower() == answer),
+                                None)
+        if correct_answer:
+            print(f'Неверно. Вы почти угадали. Правильный ответ: "{correct_answer}"')
+        else:
+            print(f'Неверно. Правильный ответ: "{english_words[0]}"')
+
+
 def main():
     dictionary = load_dictionary()
 
@@ -105,7 +145,9 @@ def main():
         print('4. Вывести все слова в категории')
         print('5. Удалить категорию')
         print('6. Удалить слово из категории')
-        print('7. Выйти из программы')
+        print('7. Сыграть в англо-русскую викторину')
+        print('8. Сыграть в русско-английскую викторину')
+        print('9. Выйти из программы')
         choice = input('Введите номер действия: \n')
 
         if choice == '1':
@@ -122,6 +164,10 @@ def main():
         elif choice == '6':
             delete_word_from_category(dictionary)
         elif choice == '7':
+            english_to_russian_quiz(dictionary)
+        elif choice == '8':
+            russian_to_english_quiz(dictionary)
+        elif choice == '9':
             break
         else:
             print('Введена неверная комаанда')
