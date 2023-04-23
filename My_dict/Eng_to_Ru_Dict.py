@@ -32,24 +32,24 @@ def save_dictionary(dictionary):
 
 
 def add_word(dictionary):
-    category = input('Введите название категории: ')
+    category = input('Введите название категории : ')
     english_word = input('Введите английское слово: ')
     russian_word = input('Введите перевод на русский: ')
     transcription = input('Введите транскрипцию: ')
     if category not in dictionary:
         dictionary[category] = {}
-    dictionary[category][english_word] = {'russian':russian_word,'transcription':transcription}
+    dictionary[category][english_word] = {'russian': russian_word, 'transcription': transcription}
     save_dictionary(dictionary)
     print('Слово добавлено в категорию и сохранено в файл')
 
 
 def search_word(dictionary):
-    search_word = input('Введите слово для поиска: ')
+    searching_word = input('Введите слово для поиска: ')
     for category, words in dictionary.items():
-        if search_word in words:
-            russian_word = words[search_word]['russian']
-            transcription = words[search_word]['transcription']
-            print(f"{category} : {search_word} : {russian_word} : {transcription}")
+        if searching_word in words:
+            russian_word = words[searching_word]['russian']
+            transcription = words[searching_word]['transcription']
+            print(f"{category} : {searching_word} : {russian_word} : {transcription}")
             return
     print('Слово не найдено в словаре')
 
@@ -108,7 +108,7 @@ def english_to_russian_quiz(dictionary):
     for english_word in english_words:
         all_attempts += 1
         russian_word = words[english_word]['russian']
-        print(f'Для выхода из викторины можете написать "q"')
+        print('Для выхода из викторины можете написать "q"')
         print(f'Переведите слово "{english_word}" на русский язык: ')
         answer = input().strip().lower()
         if answer == russian_word.lower():
@@ -135,7 +135,7 @@ def russian_to_english_quiz(dictionary):
     for word in russian_words:
         all_attempts += 1
         english_word = list(words.keys())[list(words.values()).index(word)]
-        print(f'Для выхода из викторины можете написать "q"')
+        print('Для выхода из викторины можете написать "q"')
         print(f'Переведите слово "{word["russian"]}" на английский язык: ')
         answer = input().strip().lower()
         if answer == english_word.lower():
@@ -185,7 +185,7 @@ def main():
         elif choice == '9':
             break
         else:
-            print('Введена неверная комаанда')
+            print('Введена неверная команда')
 
 
 main()
