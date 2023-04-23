@@ -31,3 +31,15 @@ C
 My_dcit2/index.html,3\6\361360413acb372955d3840c4db63e3a210bf07a
 L
 Lesson-25 19.04.2023/main.py,2\a\2aaffb922379a8139ffe22e8a03ac68f8f21a2da
+C
+Lesson-25 hw/hw1.py,c\0\c00ac1cdaea44efcbd36796e76e56d24536360a0
+C
+Lesson-25 hw/hw2.py,2\c\2c13c96ecd0355788e19fc408b81e85613d540cb
+C
+Lesson-25 hw/hw3.py,2\6\260c1cdf33337a8d2339bd14e970583ef780ca7b
+C
+Lesson-25 hw/hw4.py,9\2\92d9d459c7ee8ce3f4841f59e0184ed38cbfe084
+F
+My_dict/dictionary.txt,6\6\66d36f6e3d3367e3e9462f4088ccc3271253d4ef
+I
+My_dict/Eng_to_Ru_Dict.py,4\7\47cb46b900109cab569f94583dd9016e2bf64c21

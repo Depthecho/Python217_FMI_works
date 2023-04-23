@@ -105,10 +105,14 @@ def english_to_russian_quiz(dictionary):
     random.shuffle(english_words)
     for english_word in english_words:
         russian_word = words[english_word]['russian']
+        print(f'Для выхода из викторины можете написать "q"')
         print(f'Переведите слово "{english_word}" на русский язык: ')
         answer = input().strip().lower()
         if answer == russian_word.lower():
             print('Вы угадали!')
+        elif answer == 'q':
+            print('Выход из викторины...')
+            break
         else:
             print(f'Неверно. Правильный ответ: "{russian_word}"')
 
@@ -119,19 +123,20 @@ def russian_to_english_quiz(dictionary):
     if not words:
         print(f"Категория '{category}' не найдена в словаре")
         return
-    english_words = list(words.keys())
-    russian_word = random.choice(list(words.values()))['russian']
-    print(f'Переведите слово "{russian_word}" на английский язык: ')
-    answer = input().strip().lower()
-    if answer in english_words:
-        print('Вы угадали!')
-    else:
-        correct_answer = next((english_word for english_word in english_words if english_word.lower() == answer),
-                                None)
-        if correct_answer:
-            print(f'Неверно. Вы почти угадали. Правильный ответ: "{correct_answer}"')
+    russian_words = list(words.values())
+    random.shuffle(russian_words)
+    for word in russian_words:
+        english_word = list(words.keys())[list(words.values()).index(word)]
+        print(f'Для выхода из викторины можете написать "q"')
+        print(f'Переведите слово "{word["russian"]}" на английский язык: ')
+        answer = input().strip().lower()
+        if answer == english_word.lower():
+            print('Вы угадали!')
+        elif answer == 'q':
+            print('Выход из викторины...')
+            break
         else:
-            print(f'Неверно. Правильный ответ: "{english_words[0]}"')
+            print(f'Неверно. Правильный ответ: "{english_word}"')
 
 
 def main():
