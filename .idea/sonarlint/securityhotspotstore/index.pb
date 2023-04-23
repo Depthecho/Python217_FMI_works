@@ -39,7 +39,3 @@ C
 Lesson-25 hw/hw3.py,2\6\260c1cdf33337a8d2339bd14e970583ef780ca7b
 C
 Lesson-25 hw/hw4.py,9\2\92d9d459c7ee8ce3f4841f59e0184ed38cbfe084
-F
-My_dict/dictionary.txt,6\6\66d36f6e3d3367e3e9462f4088ccc3271253d4ef
-I
-My_dict/Eng_to_Ru_Dict.py,4\7\47cb46b900109cab569f94583dd9016e2bf64c21

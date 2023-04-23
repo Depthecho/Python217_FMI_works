@@ -96,6 +96,8 @@ def delete_word_from_category(dictionary):
 
 
 def english_to_russian_quiz(dictionary):
+    all_attempts = 0
+    correct_attempts = 0
     category = input('Введите название категории: ')
     words = dictionary.get(category)
     if not words:
@@ -104,20 +106,25 @@ def english_to_russian_quiz(dictionary):
     english_words = list(words.keys())
     random.shuffle(english_words)
     for english_word in english_words:
+        all_attempts += 1
         russian_word = words[english_word]['russian']
         print(f'Для выхода из викторины можете написать "q"')
         print(f'Переведите слово "{english_word}" на русский язык: ')
         answer = input().strip().lower()
         if answer == russian_word.lower():
             print('Вы угадали!')
+            correct_attempts += 1
         elif answer == 'q':
             print('Выход из викторины...')
             break
         else:
             print(f'Неверно. Правильный ответ: "{russian_word}"')
+    print(f"Викторина пройдена! Ты угадал {correct_attempts} слов(а) из {all_attempts} заданных !!")
 
 
 def russian_to_english_quiz(dictionary):
+    all_attempts = 0
+    correct_attempts = 0
     category = input('Введите название категории: ')
     words = dictionary.get(category)
     if not words:
@@ -126,17 +133,20 @@ def russian_to_english_quiz(dictionary):
     russian_words = list(words.values())
     random.shuffle(russian_words)
     for word in russian_words:
+        all_attempts += 1
         english_word = list(words.keys())[list(words.values()).index(word)]
         print(f'Для выхода из викторины можете написать "q"')
         print(f'Переведите слово "{word["russian"]}" на английский язык: ')
         answer = input().strip().lower()
         if answer == english_word.lower():
             print('Вы угадали!')
+            correct_attempts += 1
         elif answer == 'q':
             print('Выход из викторины...')
             break
         else:
             print(f'Неверно. Правильный ответ: "{english_word}"')
+    print(f"Викторина пройдена! Ты угадал {correct_attempts} слов(а) из {all_attempts} заданных !!")
 
 
 def main():
