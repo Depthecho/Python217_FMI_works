@@ -65,6 +65,10 @@ def print_category(dictionary, category):
         print(f"{english_word} : {russian_word} : {transcription}")
 
 
+def print_only_names_categories(dictionary):
+    for category in dictionary:
+        print(category)
+
 def print_all_categories(dictionary):
     for category in dictionary.keys():
         print_category(dictionary, category)
@@ -156,13 +160,14 @@ def main():
         print('Выберите действие:')
         print('1. Добавить слово в категорию')
         print('2. Найти слово в категории')
-        print('3. Вывести все категории')
-        print('4. Вывести все слова в категории')
-        print('5. Удалить категорию')
-        print('6. Удалить слово из категории')
-        print('7. Сыграть в англо-русскую викторину')
-        print('8. Сыграть в русско-английскую викторину')
-        print('9. Выйти из программы')
+        print('3. Вывести все названия категорий')
+        print('4. Вывести все категории и слова в них')
+        print('5. Вывести все слова в определённой категории')
+        print('6. Удалить категорию')
+        print('7. Удалить слово из категории')
+        print('8. Сыграть в англо-русскую викторину')
+        print('9. Сыграть в русско-английскую викторину')
+        print('10. Выйти из программы')
         choice = input('Введите номер действия: \n')
 
         if choice == '1':
@@ -170,19 +175,21 @@ def main():
         elif choice == '2':
             search_word(dictionary)
         elif choice == '3':
-            print_all_categories(dictionary)
+            print_only_names_categories(dictionary)
         elif choice == '4':
+            print_all_categories(dictionary)
+        elif choice == '5':
             category = input('Введите название категории: ')
             print_category(dictionary, category)
-        elif choice == '5':
-            delete_category(dictionary)
         elif choice == '6':
-            delete_word_from_category(dictionary)
+            delete_category(dictionary)
         elif choice == '7':
-            english_to_russian_quiz(dictionary)
+            delete_word_from_category(dictionary)
         elif choice == '8':
-            russian_to_english_quiz(dictionary)
+            english_to_russian_quiz(dictionary)
         elif choice == '9':
+            russian_to_english_quiz(dictionary)
+        elif choice == '10':
             break
         else:
             print('Введена неверная команда')
