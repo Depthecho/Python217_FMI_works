@@ -21,16 +21,12 @@ C
 Lesson-24 hw/hw2.py,e\1\e1c016f3cf7c68a55f9e43fe82367aea27a02435
 C
 Lesson-24 hw/hw1.py,e\2\e29a8d18f050609be9ecb2fdf46abf4b57dd748b
-C
-Lesson-24 hw/hw3.py,2\8\28541ec40b9f9c2cf0bac66190b3ff6b576dab93
 7
 test.py,a\3\a36e355ddb203d7d4133221f339dc406cb9f480f
 C
 My_dcit2/my_dict.py,7\a\7a04c72d22bd275c83c1b6554ac3a69d2695ccd6
 C
 My_dcit2/index.html,3\6\361360413acb372955d3840c4db63e3a210bf07a
-L
-Lesson-25 19.04.2023/main.py,2\a\2aaffb922379a8139ffe22e8a03ac68f8f21a2da
 C
 Lesson-25 hw/hw3.py,2\6\260c1cdf33337a8d2339bd14e970583ef780ca7b
 C
