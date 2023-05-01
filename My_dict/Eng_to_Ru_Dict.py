@@ -69,6 +69,7 @@ def print_only_names_categories(dictionary):
     for category in dictionary:
         print(category)
 
+
 def print_all_categories(dictionary):
     for category in dictionary.keys():
         print_category(dictionary, category)
