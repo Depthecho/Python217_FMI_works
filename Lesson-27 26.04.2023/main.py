@@ -1,3 +1,46 @@
+# class Complex:
+#     def __init__(self, real, imag):
+#         self.real = real
+#         self.imag = imag
+#
+#     def __add__(self, other):
+#         return Complex(self.real + other.real,
+#                        self.imag + other.imag)
+#
+#     def __sub__(self, other):
+#         return Complex(self.real - other.real,
+#                        self.imag - other.imag)
+#
+#     def __mul__(self, other):
+#         return Complex(self.real * other.real - self.imag * other.imag,
+#                        self.real * other.imag + self.imag * other.real)
+#
+#     def __truediv__(self, other):
+#         return Complex((self.real * other.real + self.imag * other.imag)
+#                        / (other.real ** 2 + other.imag ** 2),
+#                        (other.real * self.imag - self.real * other.imag)
+#                        / (other.real ** 2 + other.imag ** 2))
+#
+#     def __str__(self):
+#         return f'{self.real} + {self.imag}i'
+#
+#
+# a = Complex(4, 2)
+# b = Complex(2, 2)
+#
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+
+
+## Структуры данных
+# 1. Связные списки(Односвязный и двусвязный)
+# 2. Стек
+# 3. Очередь, Приоритетная очередь
+
+
+## Односвязный список
 # class Node:
 #     def __init__(self, value):
 #         self.value = value
@@ -34,36 +77,40 @@
 #             if current_node.next.value == value:
 #                 current_node.next = current_node.next.next
 #                 return
-#         current_node.next = current_node.next.next
+#             current_node = current_node.next
 #
 #     def show(self):
 #         if self.head is None:
-#             print(None)
+#             print('List is empty!')
 #             return
 #
 #         current_node = self.head
 #         while current_node:
-#             print(current_node.value, end = '=>')
+#             print(current_node.value, end=' -> ')
 #             current_node = current_node.next
-#             print(None)
+#         print(None)
 #
 #
-# c = LinkedList()
-# c.append(3)
-# c.append(4)
-# c.append(5)
+# a = LinkedList()
+# a.append(2)
+# a.append(4)
+# a.append(3)
+# a.show()
+# a.delete(2)
+# a.show()
 
+
+## Двусвязный список
 # class Node:
-#    def __init__(self, value):
-#        self.value = value
-#        self.next = None
-#        self.prev = None
+#     def __init__(self, value):
+#         self.value = value
+#         self.next = None
+#         self.prev = None
 #
 #
-# class DoubleLinkedList:
+# class BilinkedList:
 #     def __init__(self):
-#        self.head = None
-#
+#         self.head = None
 #
 #     def append(self, value):
 #         new_node = Node(value)
@@ -95,85 +142,155 @@
 #                 if current_node.next:
 #                     current_node.next.prev = current_node
 #                 return
-#             current_node.next = current_node.next.nex
+#             current_node = current_node.next
 #
 #     def show(self):
 #         if self.head is None:
-#             print('List is empty')
+#             print('List is empty!')
 #             return
 #
+#         print(None, end=' <-> ')
 #         current_node = self.head
 #         while current_node:
-#             print(current_node.value, end='=>')
+#             print(current_node.value, end=' <-> ')
 #             current_node = current_node.next
-#             print(None)
+#         print(None)
 #
 #
-# my_c = DoubleLinkedList()
-# my_c.append(3)
-# my_c.append(5)
-# my_c.append(7)
-# print(my_c.show())
+# a = BilinkedList()
+# a.append(2)
+# a.append(4)
+# a.append(3)
+# a.show()
+# a.delete(3)
+# a.show()
 
+
+# Стек(Произносится, как "стэк").
+# Подчиняется правилу LIFO - Last In First Out
 # class Stack:
-#     def __init__(self, size):
-#         self.stack = []
+#     def __init__(self):
+#         self.lst = []
 #
-#     def add(self, value):
-#         if type(value) == int:
-#             self.stack.append(value)
+#     def push(self, value):
+#         if not isinstance(value, int):
+#             try:
+#                 value = int(value)
+#             except ValueError:
+#                 print(f'Argument {value} is wrong data type!')
+#             else:
+#                 print(f'Warning! Your data type was reduced to int!! '
+#                       f'And your value will be replaced with {value}')
+#                 self.lst.append(value)
 #         else:
-#             raise Exception("Value's type is not int")
-#
-#     def delete(self):
-#         if not self.is_empty():
-#             return self.stack.pop()
-#         else:
-#             raise Exception("Stack is emppty")
-#
-#     def count(self):
-#         return len(self.stack)
+#             self.lst.append(value)
 #
 #     def is_empty(self):
-#         if len(self.stack) == 0:
-#             return True
-#         else:
-#             return False
+#         if len(self.lst) == 0:
+#             return 'Stack is empty!'
+#         return False
 #
-#     def clear(self):
-#         self.stack.clear()
+#     def pop(self):
+#         return self.is_empty() or self.lst.pop()
 #
 #     def peek(self):
-#         if not self.is_empty():
-#             return self.stack[-1]
-#         else:
-#             raise Exception("Stack is empty")
+#         return self.is_empty() or self.lst[-1]
+#
+#     def clear(self):
+#         self.lst.clear()
+#         print('Stack is cleared!')
+#
+#     def length(self):
+#         return len(self.lst)
+#
+#     def __str__(self):
+#         return ' -> '.join(map(str, self.lst))
+#
+#
+# stack = Stack()
+# stack.push(5)
+# stack.push(15.4)
+# stack.push(0)
+# stack.push(2)
+# stack.push(17)
+# print(stack)
+# print(stack.pop())
+# print(stack.peek())
+# print(stack.is_empty())
+# print(stack.length())
 
+
+## Очередь - Queue
+# Подчиняется правилу FIFO - First In First Out
 class Queue:
     def __init__(self, size):
+        self.lst = []
         self.size = size
-        self.queue = []
 
     def is_empty(self):
-        return len(self.queue) == 0
+        return len(self.lst) == 0
 
     def is_full(self):
-        return len(self.queue) == self.size
+        return len(self.lst) == self.size
 
     def enqueue(self, value):
-        if not self.is_full():
-            self.queue.append(value)
+        if self.is_full():
+            print('Queue is full!')
+        elif not isinstance(value, str):
+            print(f'{value} is not a string!')
         else:
-            raise Exception("Queue is full")
+            self.lst.append(value)
 
     def dequeue(self):
-        if not self.is_empty():
-            return self.queue.pop(0)
-        else:
-            raise Exception("Queue is empty")
+        return self.lst.pop(0)
 
-    def show(self, direction=''):
-        print(f'-> {self.queue} ->')
+    def show(self):
+        print(f' <- '.join(map(str, self.lst)))
+#
+#
+# q = Queue(4)
+# q.enqueue('1')
+# q.enqueue('2')
+# q.enqueue('3')
+# q.enqueue('4')
+# q.show()
+# print(q.dequeue())
+# q.show()
+# q.enqueue('3')
+# q.enqueue('4')
 
 
-
+## Приоритетная очередь - Priority Queue
+# Не подчиняется никакому из правил (LIFO/FIFO)
+# class PriorityQueue(Queue):
+#     def __init__(self, size):
+#         Queue.__init__(self, size)
+#
+#     def enqueue(self, value):
+#         """This method is deprecated"""
+#         pass
+#
+#     def prior_insert(self, data):
+#         if self.is_full():
+#             return 'Queue is full!'
+#
+#         priority = data[1]
+#         for i in range(len(self.lst)):
+#             if priority > self.lst[i][1]:
+#                 self.lst.insert(i, data)
+#                 break
+#         else:
+#             self.lst.append(data)
+#
+#     def peek(self):
+#         return self.lst[0][0]
+#
+#
+# priority_queue = PriorityQueue(5)
+# priority_queue.prior_insert(('Помыть посуду', 3))
+# priority_queue.prior_insert(('Погулять с собакой', 7))
+# priority_queue.prior_insert(('Сделать домашнее задание', 5))
+# priority_queue.prior_insert(('Покушать', 10))
+# priority_queue.show()
+# print(priority_queue.dequeue())
+# print(priority_queue.peek())

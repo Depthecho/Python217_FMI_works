@@ -145,5 +145,3 @@ for i in range(len(shapes)):
 for shape in new_shapes:
     shape.Show()
     print("-----------")
-
-

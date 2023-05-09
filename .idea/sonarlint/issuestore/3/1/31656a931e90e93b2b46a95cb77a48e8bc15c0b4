@@ -1,6 +1,4 @@
 
-3python:S1700›"Rename field "queue"(‚í™i8š¾±õû0
-Bpython:S125v"Remove this commented out code.(®¼£üúÿÿÿÿ8Œ»¡õû0
-]python:S112§">Replace this generic exception class with a more specific one.(Êóž¬8Ö´ªõû0
-bpython:S112­">Replace this generic exception class with a more specific one.(Ô¶³–øÿÿÿÿ8Ö´ªõû0
-Qpython:S1172¯"1Remove the unused function parameter "direction".(ÓµØ“8Èý¿õû0
+Bpython:S125"Remove this commented out code.(ÍãÌûÿÿÿÿ8¤¨‰úÿ0
+jpython:S3457ø"EAdd replacement fields or use a normal string instead of an f-string.(ŽÁ°ãýÿÿÿÿ8¤¨‰úÿ0
+>python:S125ù"Remove this commented out code.(ÆÔœ¦8¤¨‰úÿ0

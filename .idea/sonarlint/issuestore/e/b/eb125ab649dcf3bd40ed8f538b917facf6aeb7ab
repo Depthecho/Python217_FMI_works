@@ -1,4 +1,4 @@
 
-kpython:S100"HRename method "Show" to match the regular expression ^[a-z_][a-z0-9_]*$.(ì…ûëþÿÿÿÿ8¼Ìˆ±ý0
-epython:S100"HRename method "Save" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ú¥ý8¼Ìˆ±ý0
-kpython:S100"HRename method "Load" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ê¦Üªøÿÿÿÿ8¼Ìˆ±ý0
+dpython:S100"HRename method "Show" to match the regular expression ^[a-z_][a-z0-9_]*$.(ì…ûëþÿÿÿÿ
+^python:S100"HRename method "Save" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ú¥ý
+dpython:S100"HRename method "Load" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ê¦Üªøÿÿÿÿ
