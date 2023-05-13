@@ -5,29 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27917aec-d6a1-4a9c-bccf-8c900417681f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-27 hw/hw1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-27 hw/hw2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-27 hw/hw3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15f4c9611fe5ae12705648a2c3911315feeee346" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31656a931e90e93b2b46a95cb77a48e8bc15c0b4" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-28 10.05.2023/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fe45972e18e56b9812d558e81784013b42c73fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aaffb922379a8139ffe22e8a03ac68f8f21a2da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c13c96ecd0355788e19fc408b81e85613d540cb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47cb46b900109cab569f94583dd9016e2bf64c21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a36e355ddb203d7d4133221f339dc406cb9f480f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4b7dfb37f7c0cc23c29d769b2c3059627cde3fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5d17fd92be042188cdf1cb67801511bbe8aa248" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb125ab649dcf3bd40ed8f538b917facf6aeb7ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/563e4136aab2515600de251691b6a5557789116c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92d9d459c7ee8ce3f4841f59e0184ed38cbfe084" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/5/15f4c9611fe5ae12705648a2c3911315feeee346" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/1/31656a931e90e93b2b46a95cb77a48e8bc15c0b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/f/1fe45972e18e56b9812d558e81784013b42c73fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2aaffb922379a8139ffe22e8a03ac68f8f21a2da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2c13c96ecd0355788e19fc408b81e85613d540cb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/47cb46b900109cab569f94583dd9016e2bf64c21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a36e355ddb203d7d4133221f339dc406cb9f480f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c4b7dfb37f7c0cc23c29d769b2c3059627cde3fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/5/d5d17fd92be042188cdf1cb67801511bbe8aa248" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/eb125ab649dcf3bd40ed8f538b917facf6aeb7ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/563e4136aab2515600de251691b6a5557789116c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/2/92d9d459c7ee8ce3f4841f59e0184ed38cbfe084" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson-26 hw/hw3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-26 hw/hw3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson-27 26.04.2023/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-27 26.04.2023/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Notification.DisplayName-DoNotAsk-pythonsecurity.checker&quot;: &quot;pythonsecurity.checker&quot;,
-    &quot;Notification.DoNotAsk-pythonsecurity.checker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programm/Python/Python&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-pythonsecurity.checker": "pythonsecurity.checker",
+    "Notification.DoNotAsk-pythonsecurity.checker": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Programm/Python/Python",
+    "settings.editor.selected.configurable": "MTConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.hw3 (1)">
+}]]></component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="Eng_to_Ru_Dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-26 hw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-28 10.05.2023" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-26 hw/hw3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-28 10.05.2023/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.hw3 (1)" />
         <item itemvalue="Python.hw2 (1)" />
         <item itemvalue="Python.hw1 (1)" />
         <item itemvalue="Python.Eng_to_Ru_Dict" />
-        <item itemvalue="Python.hw3" />
       </list>
     </recent_temporary>
   </component>

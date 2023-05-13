@@ -25,18 +25,12 @@ C
 My_dcit2/my_dict.py,7\a\7a04c72d22bd275c83c1b6554ac3a69d2695ccd6
 C
 My_dcit2/index.html,3\6\361360413acb372955d3840c4db63e3a210bf07a
-C
-Lesson-25 hw/hw4.py,9\2\92d9d459c7ee8ce3f4841f59e0184ed38cbfe084
-L
-Lesson-25 19.04.2023/main.py,2\a\2aaffb922379a8139ffe22e8a03ac68f8f21a2da
 L
 Lesson-26 24.04.2023/main.py,4\5\45b8b7e0cceffcccc23676ae6d0b60620be7ffce
 C
 Lesson-24 hw/hw3.py,2\8\28541ec40b9f9c2cf0bac66190b3ff6b576dab93
 F
 My_dict/dictionary.txt,6\6\66d36f6e3d3367e3e9462f4088ccc3271253d4ef
-C
-Lesson-25 hw/hw2.py,2\c\2c13c96ecd0355788e19fc408b81e85613d540cb
 C
 Lesson-25 hw/hw1.py,c\0\c00ac1cdaea44efcbd36796e76e56d24536360a0
 C
@@ -65,17 +59,25 @@ C
 Lesson-26 hw/hw3.py,e\b\eb125ab649dcf3bd40ed8f538b917facf6aeb7ab
 C
 Lesson-26 hw/hw2.py,d\5\d5d17fd92be042188cdf1cb67801511bbe8aa248
-C
-Lesson-26 hw/hw1.py,1\5\15f4c9611fe5ae12705648a2c3911315feeee346
-I
-My_dict/Eng_to_Ru_Dict.py,4\7\47cb46b900109cab569f94583dd9016e2bf64c21
 7
 test.py,a\3\a36e355ddb203d7d4133221f339dc406cb9f480f
 L
 Lesson-27 26.04.2023/main.py,3\1\31656a931e90e93b2b46a95cb77a48e8bc15c0b4
-C
-Lesson-27 hw/hw2.py,1\f\1fe45972e18e56b9812d558e81784013b42c73fc
-C
-Lesson-27 hw/hw3.py,5\6\563e4136aab2515600de251691b6a5557789116c
+N
+Lesson-28 10.05.2023/plane.txt,a\0\a0c761517e362efd96d8f6ce4b9ebc97c4bb2fb9
 C
 Lesson-27 hw/hw1.py,7\7\772d91348d1ca9abd254f70dbb633051a8f6d72f
+J
+Lesson-28 10.05.2023/plane,6\9\69164a4d5a4511313ff877dc2b4a7cea34405ee1
+L
+Lesson-28 10.05.2023/main.py,8\f\8fce2de4ef5d623b57fb35597be18dbc66b2f58b
+L
+Lesson-25 19.04.2023/main.py,2\a\2aaffb922379a8139ffe22e8a03ac68f8f21a2da
+C
+Lesson-25 hw/hw4.py,9\2\92d9d459c7ee8ce3f4841f59e0184ed38cbfe084
+C
+Lesson-25 hw/hw2.py,2\c\2c13c96ecd0355788e19fc408b81e85613d540cb
+I
+My_dict/Eng_to_Ru_Dict.py,4\7\47cb46b900109cab569f94583dd9016e2bf64c21
+C
+Lesson-26 hw/hw1.py,1\5\15f4c9611fe5ae12705648a2c3911315feeee346
