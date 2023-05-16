@@ -1,0 +1,1 @@
+{"model": "Mercedes-Benz", "year": 2018, "mileage": 15000}

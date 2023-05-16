@@ -61,16 +61,12 @@ C
 Lesson-26 hw/hw2.py,d\5\d5d17fd92be042188cdf1cb67801511bbe8aa248
 7
 test.py,a\3\a36e355ddb203d7d4133221f339dc406cb9f480f
-L
-Lesson-27 26.04.2023/main.py,3\1\31656a931e90e93b2b46a95cb77a48e8bc15c0b4
 N
 Lesson-28 10.05.2023/plane.txt,a\0\a0c761517e362efd96d8f6ce4b9ebc97c4bb2fb9
 J
 Lesson-28 10.05.2023/plane,6\9\69164a4d5a4511313ff877dc2b4a7cea34405ee1
 C
 Lesson-27 hw/hw1.py,7\7\772d91348d1ca9abd254f70dbb633051a8f6d72f
-L
-Lesson-28 10.05.2023/main.py,8\f\8fce2de4ef5d623b57fb35597be18dbc66b2f58b
 L
 Lesson-25 19.04.2023/main.py,2\a\2aaffb922379a8139ffe22e8a03ac68f8f21a2da
 C
@@ -79,5 +75,37 @@ C
 Lesson-25 hw/hw2.py,2\c\2c13c96ecd0355788e19fc408b81e85613d540cb
 C
 Lesson-26 hw/hw1.py,1\5\15f4c9611fe5ae12705648a2c3911315feeee346
+P
+ Lesson-29 15.05.2023/my_works.py,8\b\8b29c0b32c98820657aa3c2e6873d7b4faeeaa11
+L
+Lesson-29 15.05.2023/Numbers,a\4\a4e3a44a4e6c08e170401aaee9a87c09f8032102
 I
 My_dict/Eng_to_Ru_Dict.py,4\7\47cb46b900109cab569f94583dd9016e2bf64c21
+P
+ Lesson-29 15.05.2023/Numbers.log,2\8\28ca3f868d1120275984cfc0d8d294495957f3f3
+H
+Lesson-28 hw/my_car2.txt,a\7\a78dd0452347a690adfafc09175ec7bcc1153294
+G
+Lesson-28 hw/my_car.txt,a\2\a25be27c3b87fba0fffc44d7dc51e830b2f7065b
+L
+Lesson-27 26.04.2023/main.py,3\1\31656a931e90e93b2b46a95cb77a48e8bc15c0b4
+C
+Lesson-28 hw/hw1.py,6\7\675bc37396e9e0214073ae56f6c3ca79d1d1cda8
+C
+Lesson-28 hw/hw2.py,c\0\c0860fbcebacbff8bc7ff21e132300f39f7f680b
+C
+Lesson-28 hw/hw3.py,a\1\a1fd04fcef8b0b89daec0e1395230fb484cd1cc2
+L
+Lesson-28 10.05.2023/main.py,8\f\8fce2de4ef5d623b57fb35597be18dbc66b2f58b
+X
+(Lesson-29 15.05.2023/Abstract Factory.py,a\b\abfb79fb55bf28821c6e077a967c3e7592b52238
+O
+Lesson-29 15.05.2023/Builder.py,0\8\0844f981cac3cbcd5a7d977052eb6d76de3fcf73
+O
+Lesson-29 15.05.2023/Factory.py,4\f\4fa754166b4c6c22d7ed909b28afe1f60171e444
+Q
+!Lesson-29 15.05.2023/Prototype.py,2\4\2477b0230f792028fab15cc15fdb8bdf20324e27
+Q
+!Lesson-29 15.05.2023/Singleton.py,3\7\378aaef517dd83e03c6629df6c9f3d17a89722e3
+L
+Lesson-29 15.05.2023/main.py,6\5\65b2ced2aca55e749254fbd5fb044bff073c7f3f
