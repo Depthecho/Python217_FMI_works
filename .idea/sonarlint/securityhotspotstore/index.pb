@@ -75,8 +75,6 @@ C
 Lesson-25 hw/hw2.py,2\c\2c13c96ecd0355788e19fc408b81e85613d540cb
 C
 Lesson-26 hw/hw1.py,1\5\15f4c9611fe5ae12705648a2c3911315feeee346
-P
- Lesson-29 15.05.2023/my_works.py,8\b\8b29c0b32c98820657aa3c2e6873d7b4faeeaa11
 L
 Lesson-29 15.05.2023/Numbers,a\4\a4e3a44a4e6c08e170401aaee9a87c09f8032102
 I
@@ -90,22 +88,44 @@ H
 L
 Lesson-27 26.04.2023/main.py,3\1\31656a931e90e93b2b46a95cb77a48e8bc15c0b4
 C
-Lesson-28 hw/hw1.py,6\7\675bc37396e9e0214073ae56f6c3ca79d1d1cda8
-C
 Lesson-28 hw/hw2.py,c\0\c0860fbcebacbff8bc7ff21e132300f39f7f680b
-C
-Lesson-28 hw/hw3.py,a\1\a1fd04fcef8b0b89daec0e1395230fb484cd1cc2
 L
 Lesson-28 10.05.2023/main.py,8\f\8fce2de4ef5d623b57fb35597be18dbc66b2f58b
-X
-(Lesson-29 15.05.2023/Abstract Factory.py,a\b\abfb79fb55bf28821c6e077a967c3e7592b52238
 O
 Lesson-29 15.05.2023/Builder.py,0\8\0844f981cac3cbcd5a7d977052eb6d76de3fcf73
-O
-Lesson-29 15.05.2023/Factory.py,4\f\4fa754166b4c6c22d7ed909b28afe1f60171e444
 Q
 !Lesson-29 15.05.2023/Prototype.py,2\4\2477b0230f792028fab15cc15fdb8bdf20324e27
 Q
 !Lesson-29 15.05.2023/Singleton.py,3\7\378aaef517dd83e03c6629df6c9f3d17a89722e3
+C
+Lesson-28 hw/hw3.py,a\1\a1fd04fcef8b0b89daec0e1395230fb484cd1cc2
 L
 Lesson-29 15.05.2023/main.py,6\5\65b2ced2aca55e749254fbd5fb044bff073c7f3f
+X
+(Lesson-29 15.05.2023/Abstract Factory.py,a\b\abfb79fb55bf28821c6e077a967c3e7592b52238
+O
+Lesson-29 15.05.2023/Factory.py,4\f\4fa754166b4c6c22d7ed909b28afe1f60171e444
+I
+Lesson-30 17.05.2023/file,6\3\63d4e1e3b2de0087b07057fed6568a27ef78755f
+C
+Lesson-28 hw/hw1.py,6\7\675bc37396e9e0214073ae56f6c3ca79d1d1cda8
+O
+Lesson-30 17.05.2023/Adapter.py,c\a\ca0e238dc0025f3f9e8d0f5d38bc500b7647cd6b
+O
+Lesson-30 17.05.2023/Command.py,c\c\cca80165e5569d767427a8dd59717e8cd7d3f52c
+N
+Lesson-30 17.05.2023/Facade.py,b\e\be4bc5956ca0c1ee1d56bf8989806015ba819766
+P
+ Lesson-30 17.05.2023/Iterator.py,9\7\97afba8a19f8c198b707fdae5ca87e74f5440cdf
+L
+Lesson-30 17.05.2023/main.py,1\0\109d9cd9d975a33ecfd3dd175b4d4f607134853a
+M
+Lesson-30 17.05.2023/Proxy.py,c\e\ce99396b38ed2cdcd59915b8094920fab0703e0b
+P
+ Lesson-30 17.05.2023/Strategy.py,5\a\5a807522f9ce0f27c3858f9f534e1c7d257ce383
+C
+Lesson-29 hw/hw2.py,b\5\b5ffe0df5bfd728a5224e7445b6205ee3c18673a
+C
+Lesson-29 hw/hw1.py,9\4\94a83946dab6c72397697f47284c79094a4f72d0
+C
+Lesson-29 hw/hw3.py,0\4\04275923c143b49f0e06e335c11e043583b24038
