@@ -111,8 +111,6 @@ C
 Lesson-28 hw/hw1.py,6\7\675bc37396e9e0214073ae56f6c3ca79d1d1cda8
 O
 Lesson-30 17.05.2023/Adapter.py,c\a\ca0e238dc0025f3f9e8d0f5d38bc500b7647cd6b
-O
-Lesson-30 17.05.2023/Command.py,c\c\cca80165e5569d767427a8dd59717e8cd7d3f52c
 N
 Lesson-30 17.05.2023/Facade.py,b\e\be4bc5956ca0c1ee1d56bf8989806015ba819766
 P
@@ -129,3 +127,13 @@ C
 Lesson-29 hw/hw2.py,b\5\b5ffe0df5bfd728a5224e7445b6205ee3c18673a
 C
 Lesson-29 hw/hw3.py,0\4\04275923c143b49f0e06e335c11e043583b24038
+C
+Lesson-30 hw/hw1.py,5\1\5195d8987f5b22d7634baa003d65f14c0fbabf91
+O
+Lesson-30 17.05.2023/Command.py,c\c\cca80165e5569d767427a8dd59717e8cd7d3f52c
+D
+Lesson-30 hw/log.txt,4\1\41364d6eaca7fb1906d220cd36077c2a6d876f11
+E
+Lesson-30 hw/data.txt,1\7\17f4b1ad9591e02f9826dea6b6232f1ce9338c07
+C
+Lesson-30 hw/hw2.py,4\0\4008bdd30c1b0f62cd526c8a669599191e0184ae
