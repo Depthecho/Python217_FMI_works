@@ -121,19 +121,29 @@ M
 Lesson-30 17.05.2023/Proxy.py,c\e\ce99396b38ed2cdcd59915b8094920fab0703e0b
 P
  Lesson-30 17.05.2023/Strategy.py,5\a\5a807522f9ce0f27c3858f9f534e1c7d257ce383
-C
-Lesson-29 hw/hw2.py,b\5\b5ffe0df5bfd728a5224e7445b6205ee3c18673a
-C
-Lesson-29 hw/hw1.py,9\4\94a83946dab6c72397697f47284c79094a4f72d0
-C
-Lesson-29 hw/hw3.py,0\4\04275923c143b49f0e06e335c11e043583b24038
 O
 Lesson-30 17.05.2023/Command.py,c\c\cca80165e5569d767427a8dd59717e8cd7d3f52c
-C
-Lesson-30 hw/hw1.py,5\1\5195d8987f5b22d7634baa003d65f14c0fbabf91
 D
 Lesson-30 hw/log.txt,4\1\41364d6eaca7fb1906d220cd36077c2a6d876f11
+C
+Lesson-30 hw/hw2.py,4\0\4008bdd30c1b0f62cd526c8a669599191e0184ae
 E
 Lesson-30 hw/data.txt,1\7\17f4b1ad9591e02f9826dea6b6232f1ce9338c07
 C
-Lesson-30 hw/hw2.py,4\0\4008bdd30c1b0f62cd526c8a669599191e0184ae
+Lesson-30 hw/hw1.py,5\1\5195d8987f5b22d7634baa003d65f14c0fbabf91
+C
+Lesson-29 hw/hw1.py,9\4\94a83946dab6c72397697f47284c79094a4f72d0
+C
+Lesson-29 hw/hw2.py,b\5\b5ffe0df5bfd728a5224e7445b6205ee3c18673a
+C
+Lesson-29 hw/hw3.py,0\4\04275923c143b49f0e06e335c11e043583b24038
+K
+Lesson-31 22.05.2023/app.py,a\f\afdfb9e756d8a94b9fb5a9e0e2ee0be728ab01f1
+R
+"Lesson-31 22.05.2023/controller.py,9\a\9a46f4c3bfb77d62aa03701859db937e2895b755
+K
+Lesson-31 22.05.2023/db.txt,b\d\bddd39442c1ff39f5f56476173efa5c1db7f05aa
+L
+Lesson-31 22.05.2023/view.py,6\b\6b00d92b10b43dd17d455137da101e7f38e09766
+M
+Lesson-31 22.05.2023/model.py,9\6\967db300be4d9da8af5175c75c24f68bc632fcd0
