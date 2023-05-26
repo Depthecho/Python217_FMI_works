@@ -139,11 +139,11 @@ E
 Lesson-30 hw/data.txt,1\7\17f4b1ad9591e02f9826dea6b6232f1ce9338c07
 K
 Lesson-31 22.05.2023/db.txt,b\d\bddd39442c1ff39f5f56476173efa5c1db7f05aa
-L
-Lesson-31 22.05.2023/view.py,6\b\6b00d92b10b43dd17d455137da101e7f38e09766
-R
-"Lesson-31 22.05.2023/controller.py,9\a\9a46f4c3bfb77d62aa03701859db937e2895b755
-M
-Lesson-31 22.05.2023/model.py,9\6\967db300be4d9da8af5175c75c24f68bc632fcd0
-K
-Lesson-31 22.05.2023/app.py,a\f\afdfb9e756d8a94b9fb5a9e0e2ee0be728ab01f1
+J
+Lesson-31 hw/controller.py,b\1\b19a78733463c2d9ed678201e31b02868d1c7038
+E
+Lesson-31 hw/model.py,c\a\ca49934f5484b736f44c4a408e33a739c4e50c4d
+D
+Lesson-31 hw/view.py,6\6\66dcdc5f25aa63a6a22b872150b91ded5b2b8eff
+C
+Lesson-31 hw/app.py,2\f\2f499c3e79b725239c85461519f91305ad72e5a5
