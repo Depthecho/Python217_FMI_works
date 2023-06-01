@@ -91,8 +91,6 @@ C
 Lesson-28 hw/hw2.py,c\0\c0860fbcebacbff8bc7ff21e132300f39f7f680b
 L
 Lesson-28 10.05.2023/main.py,8\f\8fce2de4ef5d623b57fb35597be18dbc66b2f58b
-O
-Lesson-29 15.05.2023/Builder.py,0\8\0844f981cac3cbcd5a7d977052eb6d76de3fcf73
 Q
 !Lesson-29 15.05.2023/Prototype.py,2\4\2477b0230f792028fab15cc15fdb8bdf20324e27
 Q
@@ -103,8 +101,6 @@ L
 Lesson-29 15.05.2023/main.py,6\5\65b2ced2aca55e749254fbd5fb044bff073c7f3f
 X
 (Lesson-29 15.05.2023/Abstract Factory.py,a\b\abfb79fb55bf28821c6e077a967c3e7592b52238
-O
-Lesson-29 15.05.2023/Factory.py,4\f\4fa754166b4c6c22d7ed909b28afe1f60171e444
 I
 Lesson-30 17.05.2023/file,6\3\63d4e1e3b2de0087b07057fed6568a27ef78755f
 C
@@ -141,9 +137,23 @@ K
 Lesson-31 22.05.2023/db.txt,b\d\bddd39442c1ff39f5f56476173efa5c1db7f05aa
 C
 Lesson-31 hw/app.py,2\f\2f499c3e79b725239c85461519f91305ad72e5a5
-E
-Lesson-31 hw/model.py,c\a\ca49934f5484b736f44c4a408e33a739c4e50c4d
-D
-Lesson-31 hw/view.py,6\6\66dcdc5f25aa63a6a22b872150b91ded5b2b8eff
 J
 Lesson-31 hw/controller.py,b\1\b19a78733463c2d9ed678201e31b02868d1c7038
+E
+Lesson-31 hw/model.py,c\a\ca49934f5484b736f44c4a408e33a739c4e50c4d
+K
+Lesson-31 22.05.2023/app.py,a\f\afdfb9e756d8a94b9fb5a9e0e2ee0be728ab01f1
+R
+"Lesson-31 22.05.2023/controller.py,9\a\9a46f4c3bfb77d62aa03701859db937e2895b755
+C
+Lesson-32 hw/app.py,2\4\24eb6eb54fe543e177fb91138e025695f75cfd88
+N
+Lesson-32 29.05.2023/films.csv,c\2\c27921d6a68bfc3e89e5e2ff99c7beed768e5faa
+J
+Lesson-32 hw/controller.py,3\0\3090dfa315f42e8dde0f60ad302bd6f61159d569
+F
+Lesson-32 hw/Shoes.csv,9\c\9c6229ddacd4c6bbfd81cf14fd5b58b41e6e6be0
+D
+Lesson-32 hw/view.py,f\d\fdf6501591778cb90457d2db19f588b0430f75e4
+E
+Lesson-32 hw/model.py,1\0\10db30e8996d7b372e5aa4d8291f59438df28b5f

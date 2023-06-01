@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27917aec-d6a1-4a9c-bccf-8c900417681f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-31 hw/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-31 hw/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-31 hw/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-31 hw/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b00d92b10b43dd17d455137da101e7f38e09766" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/967db300be4d9da8af5175c75c24f68bc632fcd0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a46f4c3bfb77d62aa03701859db937e2895b755" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afdfb9e756d8a94b9fb5a9e0e2ee0be728ab01f1" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 29.05.2023/Films.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 29.05.2023/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 29.05.2023/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 29.05.2023/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 29.05.2023/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 hw/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 hw/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 hw/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-32 hw/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-33 31.05.2023/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-33 31.05.2023/my_work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/0844f981cac3cbcd5a7d977052eb6d76de3fcf73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4fa754166b4c6c22d7ed909b28afe1f60171e444" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66dcdc5f25aa63a6a22b872150b91ded5b2b8eff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6b00d92b10b43dd17d455137da101e7f38e09766" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/967db300be4d9da8af5175c75c24f68bc632fcd0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9a46f4c3bfb77d62aa03701859db937e2895b755" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/afdfb9e756d8a94b9fb5a9e0e2ee0be728ab01f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/8/0844f981cac3cbcd5a7d977052eb6d76de3fcf73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/f/4fa754166b4c6c22d7ed909b28afe1f60171e444" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/66dcdc5f25aa63a6a22b872150b91ded5b2b8eff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,7 +67,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programm\Python\Python\Lesson-32 29.05.2023" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app (3)">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +86,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-31 hw/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-32 29.05.2023" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-32 29.05.2023/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-32 hw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-32 hw/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,27 +157,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-31 22.05.2023" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-31 22.05.2023/controller.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,32 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-31 22.05.2023" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-32 29.05.2023" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-31 22.05.2023/model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-31 22.05.2023" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-31 22.05.2023/view.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson-32 29.05.2023/model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app (3)" />
+        <item itemvalue="Python.app (2)" />
+        <item itemvalue="Python.model" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.view" />
-        <item itemvalue="Python.controller" />
-        <item itemvalue="Python.model" />
       </list>
     </recent_temporary>
   </component>
