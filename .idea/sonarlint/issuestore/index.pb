@@ -147,13 +147,29 @@ R
 "Lesson-31 22.05.2023/controller.py,9\a\9a46f4c3bfb77d62aa03701859db937e2895b755
 N
 Lesson-32 29.05.2023/films.csv,c\2\c27921d6a68bfc3e89e5e2ff99c7beed768e5faa
-J
-Lesson-32 hw/controller.py,3\0\3090dfa315f42e8dde0f60ad302bd6f61159d569
-D
-Lesson-32 hw/view.py,f\d\fdf6501591778cb90457d2db19f588b0430f75e4
 C
 Lesson-32 hw/app.py,2\4\24eb6eb54fe543e177fb91138e025695f75cfd88
-F
-Lesson-32 hw/Shoes.csv,9\c\9c6229ddacd4c6bbfd81cf14fd5b58b41e6e6be0
+J
+Lesson-32 hw/controller.py,3\0\3090dfa315f42e8dde0f60ad302bd6f61159d569
 E
 Lesson-32 hw/model.py,1\0\10db30e8996d7b372e5aa4d8291f59438df28b5f
+F
+Lesson-32 hw/Shoes.csv,9\c\9c6229ddacd4c6bbfd81cf14fd5b58b41e6e6be0
+D
+Lesson-32 hw/view.py,f\d\fdf6501591778cb90457d2db19f588b0430f75e4
+P
+ Lesson-34 03.06.2023/fraction.py,d\e\de8716b9049a92d3c6fe4b26415e720a32895144
+L
+Lesson-34 03.06.2023/main.py,f\1\f16437b36f0a1c6e9833a35a02243ce2ead8a665
+L
+Lesson-34 03.06.2023/test.py,5\7\57c2d279e92089bcc5749dfa0b9b306bc4736e71
+R
+"Lesson-34 03.06.2023/calculator.py,8\7\8731a593eadef7cfd9f3cb7007a2ec93366b443a
+W
+'Lesson-34 03.06.2023/test_calculator.py,2\8\280a67bae41654dba87761bdd33582fa7cb34ba4
+G
+Lesson-33 hw/orders.log,c\9\c99e6da7b6508730c0ec6fea07b7fa3bba33f12b
+D
+Lesson-33 hw/main.py,1\4\14f6b56c06383a95f0c3c8dfcc6c7676e71aa844
+O
+Lesson-33 31.05.2023/my_work.py,1\3\138d747fde3c150637aa1db5ab82925951e2a110
