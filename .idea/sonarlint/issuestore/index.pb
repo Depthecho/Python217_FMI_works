@@ -161,15 +161,23 @@ P
  Lesson-34 03.06.2023/fraction.py,d\e\de8716b9049a92d3c6fe4b26415e720a32895144
 L
 Lesson-34 03.06.2023/main.py,f\1\f16437b36f0a1c6e9833a35a02243ce2ead8a665
-L
-Lesson-34 03.06.2023/test.py,5\7\57c2d279e92089bcc5749dfa0b9b306bc4736e71
 R
 "Lesson-34 03.06.2023/calculator.py,8\7\8731a593eadef7cfd9f3cb7007a2ec93366b443a
-W
-'Lesson-34 03.06.2023/test_calculator.py,2\8\280a67bae41654dba87761bdd33582fa7cb34ba4
+O
+Lesson-33 31.05.2023/my_work.py,1\3\138d747fde3c150637aa1db5ab82925951e2a110
 G
 Lesson-33 hw/orders.log,c\9\c99e6da7b6508730c0ec6fea07b7fa3bba33f12b
 D
 Lesson-33 hw/main.py,1\4\14f6b56c06383a95f0c3c8dfcc6c7676e71aa844
-O
-Lesson-33 31.05.2023/my_work.py,1\3\138d747fde3c150637aa1db5ab82925951e2a110
+W
+'Lesson-34 03.06.2023/test_calculator.py,2\8\280a67bae41654dba87761bdd33582fa7cb34ba4
+L
+Lesson-34 03.06.2023/test.py,5\7\57c2d279e92089bcc5749dfa0b9b306bc4736e71
+H
+Lesson-34 hw/hw2_test.py,9\6\9606a3c2d4c7088b8015e28ca8bf852d8ae7e6e1
+C
+Lesson-34 hw/hw2.py,0\c\0c85b928a94c28846b2e4b5bd6971a4653dc3b33
+H
+Lesson-34 hw/hw1_test.py,7\5\7532297ab70c29761040c6d7bc4e6305c0eecf9d
+C
+Lesson-34 hw/hw1.py,2\9\29bb3b88f21deb732c4764f985b4bc8677786074

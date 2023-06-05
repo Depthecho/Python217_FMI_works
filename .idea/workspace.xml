@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27917aec-d6a1-4a9c-bccf-8c900417681f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-33 hw/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-34 03.06.2023/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-34 03.06.2023/fraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-34 03.06.2023/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-34 03.06.2023/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-34 03.06.2023/test_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-34 hw/hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-34 hw/hw1_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-34 hw/hw2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-34 hw/hw2_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson-33 31.05.2023/my_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-33 31.05.2023/my_work.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <recent name="E:\Programm\Python\Python\Lesson-32 29.05.2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.Python tests for hw2_test.TestNumber">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,69 +81,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_calculator.TestCalculator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for hw1_test.TestNumberList.test_average_of_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 03.06.2023" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 hw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCalculator&quot;" />
+      <option name="_new_target" value="&quot;hw1_test.TestNumberList.test_average_of_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_calculator.TestCalculator.test_multiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for hw2_test.TestNumber" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 03.06.2023" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 hw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCalculator.test_multiply&quot;" />
+      <option name="_new_target" value="&quot;hw2_test.TestNumber&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_calculator.TestCalculator.test_percentage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in hw1_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 03.06.2023" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 hw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCalculator.test_percentage&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Lesson-34 hw/hw1_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_calculator.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in hw2_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 03.06.2023" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson-34 hw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Lesson-34 03.06.2023/test_calculator.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Lesson-34 hw/hw2_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for hw2_test.TestNumber" />
+        <item itemvalue="Python tests.Python tests in hw2_test.py" />
+        <item itemvalue="Python tests.Python tests in hw1_test.py" />
+        <item itemvalue="Python tests.Python tests for hw1_test.TestNumberList.test_average_of_list" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests in test_calculator.py" />
-        <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator.test_multiply" />
-        <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator.test_percentage" />
-        <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator" />
       </list>
     </recent_temporary>
   </component>
