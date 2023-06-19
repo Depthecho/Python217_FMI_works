@@ -28,6 +28,8 @@ V
 V
 &Lesson-36 06.06.2023/server_weather.py,3\1\31b52e0aec4477d11850064d0d8525200a1fc99c
 F
-Lesson-36 hw/server.py,0\3\038df936851c0dd7782de216d7f11794968da259
-F
 Lesson-36 hw/client.py,b\3\b338b35fffeb16fb036be8a7aa8fc7709c8229f1
+F
+Lesson-36 hw/server.py,0\3\038df936851c0dd7782de216d7f11794968da259
+H
+Music-bot for ds/main.py,5\d\5d55bde376777853f1c2b8d352098b53156d361b
