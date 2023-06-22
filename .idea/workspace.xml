@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27917aec-d6a1-4a9c-bccf-8c900417681f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-38 19.06.2023/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-38 hw/db4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-38 hw/db_4.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-38 hw/hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson-39 hw/hw1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19d44139a1d1f7d76facb18b42ecd392aa7dde95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0f5c11c53aa670bbbdce5a9c2abce38f7bf3ef2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19d44139a1d1f7d76facb18b42ecd392aa7dde95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e0f5c11c53aa670bbbdce5a9c2abce38f7bf3ef2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson-37 hw/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-37 hw/hw1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programm\Python\Python\Lesson-38 hw" />
       <recent name="E:\Programm\Python\Python\Lesson-37 hw" />
       <recent name="E:\Programm\Python\Python\Lesson-37 14.06.2023" />
       <recent name="E:\Programm\Python\Python\Lesson-36 06.06.2023" />

@@ -49,3 +49,7 @@ C
 Lesson-37 hw/hw1.py,1\9\19d44139a1d1f7d76facb18b42ecd392aa7dde95
 L
 Lesson-38 19.06.2023/main.py,e\0\e0f5c11c53aa670bbbdce5a9c2abce38f7bf3ef2
+C
+Lesson-39 hw/hw1.py,e\d\ed5ffd8d6bae80549a7bcc983be8fa4b50c466fa
+C
+Lesson-38 hw/hw1.py,b\e\be3654e5c0b96425c88d05111373429c96f200f3
