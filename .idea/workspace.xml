@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27917aec-d6a1-4a9c-bccf-8c900417681f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-38 hw/db4.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-38 hw/db_4.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-38 hw/hw1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-39 hw/hw1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19d44139a1d1f7d76facb18b42ecd392aa7dde95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0f5c11c53aa670bbbdce5a9c2abce38f7bf3ef2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b338b35fffeb16fb036be8a7aa8fc7709c8229f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be3654e5c0b96425c88d05111373429c96f200f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed5ffd8d6bae80549a7bcc983be8fa4b50c466fa" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19d44139a1d1f7d76facb18b42ecd392aa7dde95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e0f5c11c53aa670bbbdce5a9c2abce38f7bf3ef2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/3/b338b35fffeb16fb036be8a7aa8fc7709c8229f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/be3654e5c0b96425c88d05111373429c96f200f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed5ffd8d6bae80549a7bcc983be8fa4b50c466fa" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-39 hw/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-39 hw/hw1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
