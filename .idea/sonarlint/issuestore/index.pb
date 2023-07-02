@@ -27,8 +27,6 @@ V
 &Lesson-36 06.06.2023/server_weather.py,3\1\31b52e0aec4477d11850064d0d8525200a1fc99c
 V
 &Lesson-36 06.06.2023/client_weather.py,5\e\5e83732c3ef4fb5ddd9ccd48223f3990956bb176
-F
-Lesson-36 hw/server.py,0\3\038df936851c0dd7782de216d7f11794968da259
 H
 Music-bot for ds/main.py,5\d\5d55bde376777853f1c2b8d352098b53156d361b
 L
@@ -45,11 +43,3 @@ D
 Lesson-37 hw/db_2.db,8\2\82219dc5b9aebb630f386da7726531a0ff5004aa
 C
 Lesson-37 hw/hw1.py,1\9\19d44139a1d1f7d76facb18b42ecd392aa7dde95
-L
-Lesson-38 19.06.2023/main.py,e\0\e0f5c11c53aa670bbbdce5a9c2abce38f7bf3ef2
-F
-Lesson-36 hw/client.py,b\3\b338b35fffeb16fb036be8a7aa8fc7709c8229f1
-C
-Lesson-38 hw/hw1.py,b\e\be3654e5c0b96425c88d05111373429c96f200f3
-C
-Lesson-39 hw/hw1.py,e\d\ed5ffd8d6bae80549a7bcc983be8fa4b50c466fa
