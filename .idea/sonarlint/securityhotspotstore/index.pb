@@ -43,3 +43,13 @@ D
 Lesson-37 hw/db_2.db,8\2\82219dc5b9aebb630f386da7726531a0ff5004aa
 C
 Lesson-37 hw/hw1.py,1\9\19d44139a1d1f7d76facb18b42ecd392aa7dde95
+L
+Lesson-40 26.06.2023/main.py,8\d\8df433b1e84dd1819f31f02d189c5eb189758f46
+W
+'Lesson-42 03.07.2023/create_database.py,7\4\7463a25833e88a64ddab63e7d843d0ceb386e997
+C
+Lesson-40 hw/hw1.py,0\3\0378d521a8966f63778693cd9e846528f50bb195
+C
+Lesson-41 hw/hw1.py,4\6\4628fe0a09b6452bd666930dac79be0107852cde
+E
+Lesson-41 hw/db_11.db,6\3\6306e2bdd4f71906214653fec912504285e8f698
