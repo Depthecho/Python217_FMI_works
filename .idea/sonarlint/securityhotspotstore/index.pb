@@ -45,11 +45,29 @@ C
 Lesson-37 hw/hw1.py,1\9\19d44139a1d1f7d76facb18b42ecd392aa7dde95
 L
 Lesson-40 26.06.2023/main.py,8\d\8df433b1e84dd1819f31f02d189c5eb189758f46
-W
-'Lesson-42 03.07.2023/create_database.py,7\4\7463a25833e88a64ddab63e7d843d0ceb386e997
 C
 Lesson-40 hw/hw1.py,0\3\0378d521a8966f63778693cd9e846528f50bb195
 C
 Lesson-41 hw/hw1.py,4\6\4628fe0a09b6452bd666930dac79be0107852cde
 E
 Lesson-41 hw/db_11.db,6\3\6306e2bdd4f71906214653fec912504285e8f698
+W
+'Lesson-42 03.07.2023/Models/Database.py,1\3\13266ce132e9faac2c500ab22fa154b35fa69f7e
+W
+'Lesson-42 03.07.2023/create_database.py,7\4\7463a25833e88a64ddab63e7d843d0ceb386e997
+P
+ Lesson-42 03.07.2023/students.db,0\4\04b999d271c84fc7f80d426eb4850ee3f3c501a1
+V
+&Lesson-42 03.07.2023/Models/Lessons.py,b\0\b0c6e9c971c044de3e50cc1a6e8c9f99c5df959b
+U
+%Lesson-42 03.07.2023/Models/Groups.py,6\6\6610030f49311833faa3d6aab470c31e6b139b70
+W
+'Lesson-42 03.07.2023/Models/Students.py,4\b\4b4edc4008a1b8fdbd352717f5da61e11fa82a69
+L
+Lesson-42 03.07.2023/main.py,c\7\c72ef653f66bdc7fb2e27bba7febef97adea9846
+L
+Lesson-43 05.07.2023/main.py,4\0\40d1e9e3e48c07c618e35573bedfcf4f71d9b920
+N
+Lesson-43 05.07.2023/test.html,c\0\c0ba66c76e3a4715191e89ada588d1ee524195a2
+C
+Lesson-42 hw/hw1.py,3\5\35c7a0184064e560555ddab82f36949992df1b86

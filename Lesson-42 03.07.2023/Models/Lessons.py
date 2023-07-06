@@ -4,8 +4,8 @@ from sqlalchemy.orm import relationship
 
 
 association_table = Table('association', Base.metadata,
-                          Column('lesson_id', Integer, ForeignKey('lessons_id')),
-                          Column('group_id', Integer, ForeignKey('groups_id')))
+                          Column('lesson_id', Integer, ForeignKey('lessons.id')),
+                          Column('group_id', Integer, ForeignKey('groups.id')))
 
 
 class Lesson(Base):
@@ -16,4 +16,4 @@ class Lesson(Base):
 
     def __repr__(self):
         return f' Id of lesson: {self.id}, ' \
-               f'Name of lesson: {self.name}'
+               f'Name of lesson: {self.lesson_title}'

@@ -11,4 +11,4 @@ class Group(Base):
 
     def __repr__(self):
         return f'Id of Group: {self.id}, ' \
-                f'Name of Group: {self.name}'
+                f'Name of Group: {self.group_name}'
