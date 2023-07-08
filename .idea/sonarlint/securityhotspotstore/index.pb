@@ -51,23 +51,43 @@ C
 Lesson-41 hw/hw1.py,4\6\4628fe0a09b6452bd666930dac79be0107852cde
 E
 Lesson-41 hw/db_11.db,6\3\6306e2bdd4f71906214653fec912504285e8f698
-W
-'Lesson-42 03.07.2023/Models/Database.py,1\3\13266ce132e9faac2c500ab22fa154b35fa69f7e
-W
-'Lesson-42 03.07.2023/create_database.py,7\4\7463a25833e88a64ddab63e7d843d0ceb386e997
 P
  Lesson-42 03.07.2023/students.db,0\4\04b999d271c84fc7f80d426eb4850ee3f3c501a1
-V
-&Lesson-42 03.07.2023/Models/Lessons.py,b\0\b0c6e9c971c044de3e50cc1a6e8c9f99c5df959b
-U
-%Lesson-42 03.07.2023/Models/Groups.py,6\6\6610030f49311833faa3d6aab470c31e6b139b70
-W
-'Lesson-42 03.07.2023/Models/Students.py,4\b\4b4edc4008a1b8fdbd352717f5da61e11fa82a69
-L
-Lesson-42 03.07.2023/main.py,c\7\c72ef653f66bdc7fb2e27bba7febef97adea9846
-L
-Lesson-43 05.07.2023/main.py,4\0\40d1e9e3e48c07c618e35573bedfcf4f71d9b920
 N
 Lesson-43 05.07.2023/test.html,c\0\c0ba66c76e3a4715191e89ada588d1ee524195a2
 C
 Lesson-42 hw/hw1.py,3\5\35c7a0184064e560555ddab82f36949992df1b86
+O
+Lesson-43 hw/Models/__init__.py,d\0\d06e1cddbb9583e07a266039206e863caccfa3a9
+W
+'Lesson-42 03.07.2023/Models/Students.py,4\b\4b4edc4008a1b8fdbd352717f5da61e11fa82a69
+V
+&Lesson-42 03.07.2023/Models/Lessons.py,b\0\b0c6e9c971c044de3e50cc1a6e8c9f99c5df959b
+L
+Lesson-43 05.07.2023/main.py,4\0\40d1e9e3e48c07c618e35573bedfcf4f71d9b920
+L
+Lesson-42 03.07.2023/main.py,c\7\c72ef653f66bdc7fb2e27bba7febef97adea9846
+W
+'Lesson-42 03.07.2023/Models/Database.py,1\3\13266ce132e9faac2c500ab22fa154b35fa69f7e
+U
+%Lesson-42 03.07.2023/Models/Groups.py,6\6\6610030f49311833faa3d6aab470c31e6b139b70
+W
+'Lesson-42 03.07.2023/create_database.py,7\4\7463a25833e88a64ddab63e7d843d0ceb386e997
+E
+Lesson-43 hw/sales.db,c\6\c6f2b0419b0cc78a9cbea45d50263b9b5c102c05
+P
+ Lesson-43 hw/Models/Customers.py,8\1\81ec3e70afe4a0f5e6613783eac2712e0f62f2cc
+O
+Lesson-43 hw/Models/Database.py,d\a\da3cbf73a0e3b308ba190f1225dab02eecedc1c0
+L
+Lesson-43 hw/Models/Sales.py,7\d\7dafa6a4ad90052f196808971e013e46946a88d6
+O
+Lesson-43 hw/Models/Salesmen.py,6\7\67ed594bf1704dc18b49e558580a826f29404f18
+O
+Lesson-43 hw/create_database.py,1\8\18b002c4cdfa21c70ffceb78ddb12339ec4e66c3
+7
+test.py,a\3\a36e355ddb203d7d4133221f339dc406cb9f480f
+C
+Lesson-43 hw/app.py,2\c\2c800f3f7750543a767e186086de31c38adc7dfe
+A
+Lesson-43 hw/test,3\1\3105e482497006b569883e2b7f4eaa06b17c02da

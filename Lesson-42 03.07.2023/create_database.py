@@ -4,9 +4,8 @@ from Models.Students import Student
 from Models.Groups import Group
 from Models.Lessons import Lesson
 
+
 # Функция для создания бд:
-
-
 def create_database(load_fake_data=True):
     create_db()
     if load_fake_data:
@@ -40,3 +39,7 @@ def _load_fake_data(session):
 
     session.commit()
     session.close()
+
+
+if __name__ == "__main__":
+    create_database()

@@ -34,3 +34,18 @@ button.pack()
 
 root.mainloop()
 
+
+
+
+
+
+
+choice = input('Do you want save your transaction ? (Y/N): ')
+        if choice.lower() == "y":
+            filename = input('Enter your filename: ')
+            save_results_to_file(display_all_sales(), filename)
+        elif choice == "n":
+            print("Okay, we won't save your transaction")
+        else:
+            print('Wrong command')
+
